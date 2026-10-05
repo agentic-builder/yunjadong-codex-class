@@ -1,0 +1,11 @@
+윤자동 멤버십 Codex 라이브 준비 안내
+이번 실습: 지점별 Excel 통합과 회사 양식 주간 보고 PPT 제작·재사용
+PC에서 Codex 로그인과 입력칸을 확인해주세요. 계정별 제공 기능과 남은 사용량을 미리 확인합니다.
+실습 ZIP을 새로 내려받아 압축을 풀고 yjd-codex-office 폴더를 준비해주세요. 이전 파일 정리 실습 ZIP과 다릅니다.
+Excel 3개·업무 메모 2개·새 보고양식.pptx 1개가 들어 있습니다.
+PPT와 Excel을 열 수 있는 앱/뷰어를 준비하면 좋습니다. 어려우면 준비된 웹 미리보기로 검토에 참여할 수 있습니다.
+방송과 라이브 강의실을 함께 열어두고, 실행할 때는 내 Codex로 이동합니다.
+메일·캘린더 연결은 공통 실습의 필수 준비가 아닙니다.
+155분 준비 기준과 선택 확장 25분이며 실제 마무리는 현장에서 안내합니다.
+학생 자료: https://agentic-builder.github.io/yunjadong-codex-class/
+라이브 강의실: https://agentic-builder.github.io/yunjadong-codex-class/live.html
