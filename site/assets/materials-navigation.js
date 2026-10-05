@@ -10,7 +10,7 @@
    const stage=Object.hasOwn(routes,location.hash.slice(1))?location.hash.slice(1):'p-opening',r=routes[stage];
    const deck=document.querySelector('[data-stage-deck]'),book=document.querySelector('[data-stage-book]'),cases=document.querySelector('[data-stage-case]');
    deck.hidden=!r.slide;deck.href=`deck.html?from=${stage}#s${r.slide||1}`;deck.textContent=r.slide?`설명 슬라이드 · ${r.slide}장부터`:'설명 슬라이드';
-   book.href=`textbook.html?from=${stage}#${r.book}`;cases.href=`showcase.html?from=${stage}#start`;
+   book.href=`textbook.html?from=${stage}#${r.book}`;cases.href=`showcase.html?from=${stage}#start`;cases.hidden=!['p-preview','p-showcase'].includes(stage);
   }else if(back){
    let stage=validSource;
    if(!stage&&document.body.classList.contains('deck')){
