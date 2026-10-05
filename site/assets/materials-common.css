@@ -14,7 +14,7 @@ body[data-materials-polish] main.site h2{margin-top:36px}
 body[data-materials-polish] main.site :is(td,th){font-size:17px;line-height:1.65}
 body[data-materials-polish] main.site li{margin:9px 0}
 .material-logo{display:block;width:120px;height:auto;margin:0 0 24px}
-.room .top .room-logo{box-sizing:content-box;background:white;padding:9px 11px;border-radius:4px;width:86px!important;height:auto!important;max-height:none!important}
+.room .top .room-logo{box-sizing:border-box;background:transparent;padding:0;border-radius:0;width:124px;height:auto}
 .room .brand{display:flex;align-items:center;gap:12px}
 .room .brand span{margin-left:0}
 .room .top{gap:16px}
@@ -59,7 +59,7 @@ body[data-materials-polish] video{aspect-ratio:16/9;object-fit:contain;border-ra
 }
 @media(max-width:700px){
  .room .top{gap:12px}
- .room .top .room-logo{width:70px!important;padding:6px 9px}
+ .room .top .room-logo{width:110px;padding:0}
  .room .mode{font-size:14px;gap:10px}
  .room .mode span{max-width:60%;word-break:keep-all}
  .stage-materials{padding:12px 20px;gap:8px 15px;font-size:14px}
