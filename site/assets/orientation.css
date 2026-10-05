@@ -1,0 +1,32 @@
+/* Basic orientation: the existing Yunjadong teal/gold identity. */
+.orientation-table{overflow-x:auto;margin:22px 0}
+.orientation-table table{width:100%;border-collapse:collapse;font:inherit}
+.orientation-table th,.orientation-table td{padding:15px 18px;text-align:left;border:1px solid #b8d4d5;vertical-align:top}
+.orientation-table th{background:#005051;color:#fff;font-weight:700}
+.orientation-table td{background:#fff}.orientation-table tr:nth-child(even) td{background:#f0f7f7}
+.drive-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0}
+.drive-grid>div{background:#f0f7f7;border-top:4px solid #cc9965;padding:24px}
+.drive-grid span{display:block;color:#986935;font-size:15px;font-weight:750;margin-bottom:10px}
+.drive-grid strong{color:#005051;font-size:25px;display:block}.drive-grid p{margin:10px 0 0;font-size:18px}
+.orientation-source{font-size:14px!important;color:#666;line-height:1.8;margin-top:24px!important}
+.orientation-source a{color:#005051}.orientation-map{margin:24px 0}
+.orientation-map figcaption{color:#666;font-size:14px;margin-bottom:10px}
+.app-map{display:grid;grid-template-columns:.7fr 1.35fr 1fr;border:1px solid #b8d4d5;min-height:270px;border-radius:5px;overflow:hidden}
+.app-map>div{padding:22px;border-right:1px solid #b8d4d5;font-size:18px}.app-map>div:last-child{border:0}
+.app-map b{color:#005051;font-size:21px}.map-project{background:#f0f7f7}.app-map small{font-size:15px;line-height:1.8}
+.map-chat{display:flex;flex-direction:column}.map-input{margin-top:auto;padding:15px;border:2px solid #cc9965;background:#fff8ec;color:#005051}
+.map-view{background:#fafafa}.orientation-joke{background:#f0f7f7;border-left:5px solid #cc9965;padding:28px 32px;margin:22px 0}
+.orientation-joke>span{display:block;font-size:16px;color:#986935}.orientation-joke>strong{display:block;font-size:68px;color:#005051;line-height:1.25;margin:16px 0}
+.orientation-joke p{font-size:24px;margin-bottom:0}kbd{display:inline-block;border:1px solid #b8d4d5;border-bottom-width:3px;background:#fff;padding:2px 6px;border-radius:4px;font:inherit;color:#005051}
+.book-main .tiles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:24px 0}.book-main .tiles>div{background:#f0f7f7;border-top:3px solid #cc9965;padding:22px}.book-main .tiles b{font-size:22px;color:#005051}
+.book-main .notice{border-left:4px solid #cc9965;background:#fff8ec;padding:20px;margin:20px 0}.book-main .notice>b{color:#005051}.book-main .step-list:empty{display:none}
+.slide .orientation-table{margin:0;font-size:27px}.slide .orientation-table th,.slide .orientation-table td{padding:18px 22px}
+.slide .orientation-table th:first-child{width:15%}.slide .orientation-table th:nth-child(2){width:35%}
+.slide .drive-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;margin:0}.slide .drive-grid>div{min-height:280px;padding:28px 24px}.slide .drive-grid span{font-size:22px}.slide .drive-grid strong{font-size:32px;line-height:1.4}.slide .drive-grid p{font-size:25px;line-height:1.6}
+.slide .app-map{min-height:350px}.slide .app-map>div{padding:28px;font-size:28px}.slide .app-map b{font-size:31px}.slide .app-map small{font-size:24px}.slide .orientation-map figcaption{font-size:20px}.slide .orientation-joke{margin:0}.slide .orientation-joke strong{font-size:100px}.slide .orientation-joke p{font-size:38px}.slide .orientation-joke>span{font-size:22px}
+@media(max-width:700px){.drive-grid,.book-main .tiles{grid-template-columns:1fr}.app-map{grid-template-columns:1fr}.app-map>div{border-right:0;border-bottom:1px solid #b8d4d5}.map-input{margin-top:18px}.orientation-joke{padding:22px}.orientation-joke>strong{font-size:50px}.orientation-joke p{font-size:21px}.orientation-table table{min-width:580px}}
+@media print{.orientation-table,.orientation-map,.drive-grid>div{break-inside:avoid}}
+.slide .pricing-table th:first-child{width:20%}.slide .pricing-table th:nth-child(2){width:29%}
+.reasoning-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:24px 0}.reasoning-cards>div{padding:24px;background:#f0f7f7;border-top:4px solid #cc9965}.reasoning-cards span{display:block;color:#986935;font-size:16px}.reasoning-cards b{display:block;color:#005051;font-size:24px;margin:12px 0}.reasoning-cards strong{display:block;color:#005051;font-size:19px}.reasoning-cards p{font-size:18px}
+.slide .reasoning-cards{margin:0}.slide .reasoning-cards>div{padding:28px;min-height:300px}.slide .reasoning-cards span{font-size:23px}.slide .reasoning-cards b{font-size:31px}.slide .reasoning-cards p{font-size:26px}.slide .reasoning-cards strong{font-size:26px}
+@media(max-width:700px){.reasoning-cards{grid-template-columns:1fr}}

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "cover",
+    "type": "AI-generated editorial illustration",
+    "generator": "built-in imagegen",
+    "date": "2026-10-05",
+    "file": "cover.png"
+  },
+  {
+    "name": "start",
+    "type": "AI-generated editorial illustration",
+    "generator": "built-in imagegen",
+    "date": "2026-10-05",
+    "file": "start.png"
+  },
+  {
+    "name": "ask",
+    "type": "AI-generated editorial illustration",
+    "generator": "built-in imagegen",
+    "date": "2026-10-05",
+    "file": "ask.png"
+  }
+]

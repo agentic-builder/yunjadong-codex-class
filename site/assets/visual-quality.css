@@ -1,0 +1,76 @@
+/* Final teaching typography: 1600x900 slides, readable browser documents. */
+:root{--gold-text:#895b2f}
+body.quality-reviewed{font-family:Pretendard,'Malgun Gothic',sans-serif}
+.quality-reviewed button,.quality-reviewed select,.quality-reviewed input,.quality-reviewed textarea{font-family:inherit}
+.quality-reviewed:not(.deck) .eyebrow,.quality-reviewed .book-nav-group,
+.quality-reviewed .drive-grid span,.quality-reviewed .reasoning-cards span,
+.quality-reviewed .orientation-joke>span,.quality-reviewed .loop>span{color:var(--gold-text)}
+.quality-reviewed .book-nav-group{font-size:14px}
+.quality-reviewed .book-nav a{font-size:15px;line-height:1.6}
+.quality-reviewed .book-section>.eyebrow{font-size:15px;color:var(--gold-text)}
+.quality-reviewed .book-section{font-size:19px;line-height:1.75}
+.quality-reviewed .book-main .prompt pre{font-size:19px;line-height:1.75}
+.quality-reviewed.quality-entry main.site{font-size:19px;line-height:1.75}
+.quality-reviewed .room main{font-size:22px;line-height:1.65}
+.quality-reviewed .room .prompt pre{font-size:21px;line-height:1.7}
+.quality-reviewed .room .tiles p{font-size:20px}
+.quality-reviewed .room .stage-content .orientation-table{font-size:21px}
+.quality-reviewed .room .complete p{font-size:22px;line-height:1.6}
+.quality-reviewed .room .notice p{font-size:19px}
+.quality-reviewed .room .orientation-source{font-size:15px!important}
+.quality-reviewed.quality-showcase main{font-size:21px;line-height:1.7}
+.quality-reviewed.quality-showcase .card p{font-size:19px}
+.quality-reviewed.quality-showcase .event{font-size:17px}
+.quality-reviewed.quality-showcase .note small{font-size:16px}
+.quality-reviewed.quality-showcase .calendar{grid-template-columns:repeat(2,minmax(0,1fr))}
+.quality-reviewed.quality-example{background:white;font-size:19px;line-height:1.75}
+.quality-reviewed.quality-example header{background:#fff;color:#005051;border-bottom:1px solid #b8d4d5}
+.quality-reviewed.quality-example header p{color:#526864}
+.quality-reviewed.quality-example .example-logo{display:block;width:130px;height:auto;margin-bottom:24px}
+.quality-reviewed.quality-example .card,.quality-reviewed.quality-example .box{border-radius:5px}
+.quality-reviewed.quality-example .tbl{font-size:18px}
+.quality-reviewed.quality-example .small{font-size:15px;overflow-wrap:anywhere}
+.quality-reviewed .table-scroll-hint{margin:8px 0;color:#526864;font-size:14px}
+.quality-reviewed .table-scroll-hint[hidden]{display:none}
+.deck.quality-reviewed .s-body .orientation-table{font-size:30px;line-height:1.5}
+.deck.quality-reviewed .orientation-table th,.deck.quality-reviewed .orientation-table td{padding:18px 22px}
+.deck.quality-reviewed .s-limit{font-size:22px;line-height:1.45}
+.deck.quality-reviewed .s-footer{font-size:18px}
+.deck.quality-reviewed .s-mode{font-size:19px}
+.deck.quality-reviewed .timer-label,.deck.quality-reviewed .timer-box button{font-size:24px}
+.deck.quality-reviewed .step-card .number{font-size:24px;color:var(--gold-text)}
+.deck.quality-reviewed .w-arrow,.deck.quality-reviewed .w-rhythm>b{color:var(--gold-text)}
+.deck.quality-reviewed .w-paper p{font-size:28px}
+.deck.quality-reviewed .w-num{font-size:22px;color:var(--gold-text)}
+.deck.quality-reviewed .drive-grid p{font-size:27px;line-height:1.45}
+.deck.quality-reviewed .drive-grid span{font-size:24px}
+.deck.quality-reviewed .reasoning-cards span{font-size:24px}
+.deck.quality-reviewed .reasoning-cards p{font-size:28px;line-height:1.45}
+.deck.quality-reviewed .orientation-joke>span{font-size:24px}
+.deck.quality-reviewed .closing .number{color:#edcca5}
+.deck.quality-reviewed .key-chord{white-space:nowrap}
+.deck.quality-reviewed .w-node strong{text-wrap:balance}
+@media(max-width:900px){
+ .quality-reviewed.quality-showcase .calendar{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+ .quality-reviewed .room main{font-size:19px;line-height:1.7}
+ .quality-reviewed .room .complete p{font-size:20px}
+ .quality-reviewed .room .prompt pre{font-size:19px}
+ .quality-reviewed .room .stage-content .orientation-table{font-size:18px}
+ .quality-reviewed.quality-showcase main{font-size:19px}
+ .quality-reviewed.quality-showcase .card p{font-size:18px}
+ .quality-reviewed .book-section{font-size:18px}
+ .quality-reviewed .book-main .prompt pre{font-size:18px;line-height:1.75}
+ .quality-reviewed.quality-example{font-size:18px}
+ .quality-reviewed.quality-example .tbl{font-size:17px}
+ .quality-reviewed.quality-example .progress-heading{align-items:flex-start;gap:12px;flex-wrap:wrap}
+}
+@media print{
+ .table-scroll-hint{display:none!important}
+ .quality-reviewed.quality-example{font-size:10pt;line-height:1.4}
+ .quality-reviewed.quality-example header{padding:0;border:0}
+ .quality-reviewed.quality-example .example-logo{display:none}
+ .quality-reviewed.quality-example .tbl{font-size:10pt}
+ .quality-reviewed.quality-example .small{font-size:8pt}
+}

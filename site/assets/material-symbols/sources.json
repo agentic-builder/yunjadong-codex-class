@@ -1,0 +1,212 @@
+{
+  "provider": "Google Material Symbols Outlined",
+  "license": "Apache-2.0",
+  "retrieved": "2026-10-05",
+  "guide": "https://developers.google.com/fonts/docs/material_symbols",
+  "icons": [
+    {
+      "key": "chat",
+      "name": "chat",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/chat/materialsymbolsoutlined/chat_24px.svg",
+      "sha256": "54cec1588b002959077443b4f673df171413cc567113d9b755ac2654f6f2f2eb"
+    },
+    {
+      "key": "folder",
+      "name": "folder_open",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/folder_open/materialsymbolsoutlined/folder_open_24px.svg",
+      "sha256": "0bc856c7bb7bbd1b86b42b6a0c5d242d6759086c910f52e4a549139fb25d4f14"
+    },
+    {
+      "key": "document",
+      "name": "description",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/description/materialsymbolsoutlined/description_24px.svg",
+      "sha256": "65e2c1ac1ca2d0a894c8d8d89e530cb5df940d7ff0effbeb8c5f4b234a477670"
+    },
+    {
+      "key": "check",
+      "name": "check_circle",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/check_circle/materialsymbolsoutlined/check_circle_24px.svg",
+      "sha256": "42bf0950bc12ecf7952a8c3be86e0131f225095a7dc6c824a659a13df442e373"
+    },
+    {
+      "key": "eye",
+      "name": "visibility",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/visibility/materialsymbolsoutlined/visibility_24px.svg",
+      "sha256": "07f07478fc58500ce05000c3b123cb95de57aad9b106b9cfa58720528ea09bd7"
+    },
+    {
+      "key": "edit",
+      "name": "edit_note",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/edit_note/materialsymbolsoutlined/edit_note_24px.svg",
+      "sha256": "251e013d6996774f8f878d957e50c22bbbf5dc13665a0035eff39258c9b49915"
+    },
+    {
+      "key": "shield",
+      "name": "verified_user",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/verified_user/materialsymbolsoutlined/verified_user_24px.svg",
+      "sha256": "abd70cab16bbd9d08b455421d32d7fbb6aa5b24c87403ce0dd333109db313752"
+    },
+    {
+      "key": "brain",
+      "name": "psychology",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/psychology/materialsymbolsoutlined/psychology_24px.svg",
+      "sha256": "64747d169fd8fbf7e452609d30f5a3c47bc5edf03d71d6741f66c0fc4f4b0601"
+    },
+    {
+      "key": "image",
+      "name": "image",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/image/materialsymbolsoutlined/image_24px.svg",
+      "sha256": "529a1c66444e63ab1425fbf7b354a8c6e284aee654a0fc9b05df44b9cf7c7269"
+    },
+    {
+      "key": "mic",
+      "name": "mic",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/mic/materialsymbolsoutlined/mic_24px.svg",
+      "sha256": "9303010d6ab8511a63e26cb1169473b3dc02dbc65bf1a1353493e1f1109f3fbb"
+    },
+    {
+      "key": "capture",
+      "name": "screenshot_region",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/screenshot_region/materialsymbolsoutlined/screenshot_region_24px.svg",
+      "sha256": "d00eda5d2d3993246f7d20cf9b1df64467a7bed9986f07ebfd1934f56ac2ae32"
+    },
+    {
+      "key": "monitor",
+      "name": "desktop_windows",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/desktop_windows/materialsymbolsoutlined/desktop_windows_24px.svg",
+      "sha256": "b226ae01b3c9b9a4267560caa401ea34cb066c9dd756fa63552ac5d4b6f3175c"
+    },
+    {
+      "key": "mouse",
+      "name": "ads_click",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/ads_click/materialsymbolsoutlined/ads_click_24px.svg",
+      "sha256": "eebabd17446ac49462306a09907bad5f8f06fd4b0ff9f39558f819de8e177933"
+    },
+    {
+      "key": "route",
+      "name": "route",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/route/materialsymbolsoutlined/route_24px.svg",
+      "sha256": "d7962e11c41b71ce30aa4c47b7f3eacb9d88d08f02421214f5f9d641d5a45956"
+    },
+    {
+      "key": "steering",
+      "name": "explore",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/explore/materialsymbolsoutlined/explore_24px.svg",
+      "sha256": "7ab282089cf6a23d151de17cdc53cc0f0744af913364e772dad3e35015cb67f3"
+    },
+    {
+      "key": "pedal",
+      "name": "speed",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/speed/materialsymbolsoutlined/speed_24px.svg",
+      "sha256": "8bc7560c91a3b04183520be7c266d308c2f1fb82126789cfe35e421a93997a0a"
+    },
+    {
+      "key": "stop",
+      "name": "pause_circle",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/pause_circle/materialsymbolsoutlined/pause_circle_24px.svg",
+      "sha256": "6858900024189873cccb2a60d5e427de559376d0a7650701b94b2a50fa04b940"
+    },
+    {
+      "key": "gear",
+      "name": "tune",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/tune/materialsymbolsoutlined/tune_24px.svg",
+      "sha256": "b1a4320c966b3f7c421bf3dad47cabdb1ac8a18c1dfff1d8a51236beb2aa697e"
+    },
+    {
+      "key": "train",
+      "name": "train",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/train/materialsymbolsoutlined/train_24px.svg",
+      "sha256": "7bd53d11bc83afaec58f552df50d7c63c01f704592b7ad43ee3b0a4cab0d4572"
+    },
+    {
+      "key": "calendar",
+      "name": "calendar_month",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/calendar_month/materialsymbolsoutlined/calendar_month_24px.svg",
+      "sha256": "bdc60a3e813b0db2928261ff7376870a7af445a0bd498bcb83f43a7e6ef26987"
+    },
+    {
+      "key": "cloud",
+      "name": "cloud",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/cloud/materialsymbolsoutlined/cloud_24px.svg",
+      "sha256": "a432f176f21f1f8b66fb55ba64507d4280f3ea82c3e4df0e360ead8907f8c27c"
+    },
+    {
+      "key": "person",
+      "name": "person",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/person/materialsymbolsoutlined/person_24px.svg",
+      "sha256": "42f1c6f70aaea6be1bce078d1bd3bdc027a343943827443fe3ea46320b9dac96"
+    },
+    {
+      "key": "bulb",
+      "name": "lightbulb",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/lightbulb/materialsymbolsoutlined/lightbulb_24px.svg",
+      "sha256": "b3689e6f58985c767c022823116f55ea63af5fb3ec7c328e2d6c007534aec9dc"
+    },
+    {
+      "key": "save",
+      "name": "save",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/save/materialsymbolsoutlined/save_24px.svg",
+      "sha256": "3d34bab9e571f0fc0f840662d178377237f5906e87e8ff295dd04e07b8ceea35"
+    },
+    {
+      "key": "clock",
+      "name": "schedule",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/schedule/materialsymbolsoutlined/schedule_24px.svg",
+      "sha256": "6b6606472e4d807e4b2afc8cd667a48fa634341d44487580a7b350f8dd790170"
+    },
+    {
+      "key": "target",
+      "name": "task_alt",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/task_alt/materialsymbolsoutlined/task_alt_24px.svg",
+      "sha256": "ac591138170daa88019cfe1eba5f3e67c7b03e9db192ff016817602d6bf2bcf7"
+    },
+    {
+      "key": "balance",
+      "name": "balance",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/balance/materialsymbolsoutlined/balance_24px.svg",
+      "sha256": "fb06db38564cc79dd25aea6619d870e57b7a30a4bf9942b76beb72253b0d2c30"
+    },
+    {
+      "key": "cup",
+      "name": "coffee",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/coffee/materialsymbolsoutlined/coffee_24px.svg",
+      "sha256": "e3a17f838cce3c4ed869aa4aec98c37d92b4756aaddd7e38efd0e442d16a721b"
+    },
+    {
+      "key": "car",
+      "name": "directions_car",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/directions_car/materialsymbolsoutlined/directions_car_24px.svg",
+      "sha256": "8f0a18a0a7a8ad65529fef7917a4aa7fdd4e9a7de784578c744e26cb6f3be2f1"
+    },
+    {
+      "key": "mountain",
+      "name": "landscape",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/landscape/materialsymbolsoutlined/landscape_24px.svg",
+      "sha256": "84a7b2b2b5fdcb6244ddc095a9f8126078cff70dd42bc416eb75c28e3aba595a"
+    },
+    {
+      "key": "home",
+      "name": "home",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/home/materialsymbolsoutlined/home_24px.svg",
+      "sha256": "41735f056fa43ed570585a294210f4c32dad1481bdf0a617b86b1007b2a8a913"
+    },
+    {
+      "key": "mail",
+      "name": "mail",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/mail/materialsymbolsoutlined/mail_24px.svg",
+      "sha256": "05f47e61b392b3d9a8f0d9c6d11503f276841901efc5869a2b17f9f57b912870"
+    },
+    {
+      "key": "arrow",
+      "name": "arrow_forward",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/arrow_forward/materialsymbolsoutlined/arrow_forward_24px.svg",
+      "sha256": "717c65e2e704a07b7b73e194b202858f52befbaa6dd363565a1d75d117c3a2aa"
+    },
+    {
+      "key": "cycle",
+      "name": "sync",
+      "url": "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/sync/materialsymbolsoutlined/sync_24px.svg",
+      "sha256": "1b47b89b3d9dde46cf7d2329286f95ddcfa7f060dabc740f22169c53c72f624c"
+    }
+  ]
+}

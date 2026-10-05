@@ -1,0 +1,51 @@
+/* Yunjadong house identity. Visual layer only; lesson content remains in its sources. */
+.house-book{background:#fff;color:#2a2a2a}
+.house-book .book-top{background:#fff;color:#003d3e;border-bottom:1px solid #e5e5e5;gap:22px}
+.house-book .book-top a{color:#005051;font-weight:650;text-decoration:none;font-size:14px}
+.house-book .book-name{flex:1;font-weight:700;font-size:15px}
+.book-top-logo{height:24px;width:auto;object-fit:contain}
+.book-progress{position:absolute;bottom:-1px;left:0;right:0;height:3px;background:#f5f5f5}
+.book-progress i{display:block;height:100%;width:0;background:#cc9965}
+.house-book .book-layout{max-width:none;grid-template-columns:280px minmax(0,1fr)}
+.house-book .book-nav{background:#fafafa;border-right:1px solid #e5e5e5;padding:20px 0 36px}
+.book-brand{padding:4px 22px 20px;border-bottom:1px solid #e5e5e5;margin-bottom:10px}
+.book-brand img{height:30px;width:auto;display:block;margin-bottom:18px}
+.book-brand p{font-size:12px;color:#666;margin:0 0 7px;font-weight:700;letter-spacing:.03em}
+.book-brand strong{display:block;font-size:20px;color:#005051;line-height:1.4}
+.book-brand small{display:block;font-size:12px;color:#666;margin-top:9px}
+.book-nav-group{padding:19px 22px 5px;font-size:12.5px;letter-spacing:.03em;color:#a87a4a;font-weight:800}
+.house-book .book-nav a{border-left:3px solid transparent;border-radius:0;padding:9px 19px;margin:0;font-size:14px;line-height:1.5}
+.house-book .book-nav a:hover{background:#f0f7f7}
+.house-book .book-nav a.current{border-left-color:#cc9965;background:white;color:#005051;font-weight:750}
+.house-book .book-main{width:100%;max-width:1060px;margin:0 auto;padding:10px 48px 80px}
+.house-book .book-section{padding:38px 0 52px;border-color:#e5e5e5;scroll-margin-top:76px}
+.house-book .book-section>.eyebrow{color:#a87a4a;font-size:14px;margin-bottom:12px}
+.house-book .book-section h2{font-size:34px;letter-spacing:-.025em;color:#005051;line-height:1.3;margin-bottom:20px}
+.house-book .book-section .lead{font-size:22px;color:#555;line-height:1.65;margin-bottom:25px}
+.house-book .step-list{margin:24px 0}
+.house-book .step-list li{background:#f0f7f7;border:1px solid #d9e8e8;border-radius:5px;padding:19px 20px 19px 63px;margin:12px 0}
+.house-book .step-list li:before{background:#005051;color:#fff;left:18px;top:20px;width:28px;height:28px;text-align:center;line-height:28px;font-size:14px;border-radius:50%}
+.house-book .prompt{border-radius:5px;margin:26px 0;box-shadow:0 3px 12px #1a1f2e0b}
+.house-book .prompt-head{padding:12px 20px;font-size:14px;color:#dce5ed}
+.house-book .prompt pre{padding:23px;font-size:18px;line-height:1.85}
+.house-book .callout{background:#fff8ec;border-left:4px solid #cc9965;border-radius:0 4px 4px 0}
+.house-book .success{background:#f0f7f7;border-left-color:#005051;padding:21px 24px;margin-top:26px}
+.house-book .success strong{color:#005051}
+.house-book table{border:1px solid #b8d4d5;font-size:17px}
+.house-book th{background:#005051;color:#fff;font-weight:650}
+.house-book tr:nth-child(even) td{background:#f0f7f7}
+.house-book td,.house-book th{padding:16px 18px}
+.house-book .book-image{max-width:100%;margin:28px 0;border:1px solid #e5e5e5;border-radius:5px}
+.house-book #fcc-concepts{border:0;background:transparent;padding:0;margin:28px 0;display:flex;flex-wrap:wrap;gap:16px;font-weight:500}
+.house-book #fcc-concepts>b{width:100%;font-size:20px;color:#005051}
+.house-book #fcc-concepts>br{display:none}
+.concept-card{flex:1 1 230px;padding:27px 24px;border-top:4px solid #cc9965;background:#f0f7f7;color:#005051;line-height:1.7}
+.concept-card:before{content:'';display:block;width:44px;height:32px;border:2px solid #005051;border-radius:3px;box-shadow:5px 5px 0 #b8d4d5;margin-bottom:20px}
+.concept-card:last-child:before{border-radius:12px 12px 12px 2px;box-shadow:5px 5px 0 #ead6bf}
+.house-entry{background:#fff!important;color:#005051!important;border-bottom:1px solid #b8d4d5}
+.house-entry p{color:#555!important}.entry-logo{width:130px;height:auto;margin-bottom:23px}
+.house-entry .eyebrow{color:#a87a4a}.house-entry h1{color:#005051}
+.room-logo{width:90px;height:auto;display:block}.top .brand{display:flex;align-items:center;gap:16px}
+@media(max-width:900px){.house-book .book-layout{display:block}.house-book .book-nav{display:none;position:fixed;top:56px;left:0;width:280px;height:calc(100dvh - 56px);z-index:30;box-shadow:10px 0 35px #0002}.house-book .book-nav.open{display:block}.house-book .book-top .book-menu{display:inline-flex}.house-book .book-main{padding:10px 26px 60px}.house-book .book-name{max-width:none}.book-top-logo{display:none}}
+@media(max-width:540px){.house-book .book-top{gap:12px;padding:0 12px}.house-book .book-name{display:none}.house-book .book-main{padding:8px 20px 50px}.house-book .book-section h2{font-size:28px}.house-book .book-section .lead{font-size:20px}.house-book .prompt pre{font-size:17px;padding:18px}.house-book .step-list li{padding-right:14px}.house-book .book-section{padding-top:28px}.room-logo{width:70px}.top .brand{gap:8px}}
+@media print{.house-book .book-nav,.house-book .book-top{display:none!important}.house-book .book-layout{display:block}.house-book .book-main{padding:0;max-width:none}.house-book .book-section{break-inside:auto}.house-book .concept-card,.house-book .step-list li{break-inside:avoid}}
